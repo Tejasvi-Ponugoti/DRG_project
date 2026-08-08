@@ -1,0 +1,6 @@
+Scenario,Additional_HP_Load_kWh
+Baseline,0
+Low HP,10
+Medium HP,20
+High HP,30
+Extreme HP,40

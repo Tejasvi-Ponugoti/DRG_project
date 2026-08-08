@@ -1,0 +1,6 @@
+Scenario,Additional_EV_Load_kWh
+Baseline,0
+Low EV,20
+Medium EV,40
+High EV,60
+Extreme EV,80

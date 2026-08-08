@@ -1,0 +1,12 @@
+Feature,Mean_Absolute_SHAP
+lag_1,49.365086
+lag_48,19.866968
+hour,6.3617673
+lag_96,2.5185945
+weekday,0.9758945
+rolling_std_48,0.8426329
+rolling_mean_48,0.5622341
+day,0.33717635
+month,0.2993456
+is_weekend,0.1874304
+season,0.15499029

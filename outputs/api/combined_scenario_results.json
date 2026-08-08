@@ -1,0 +1,78 @@
+{
+    "phase": 11,
+    "analysis": "Combined EV and heat pump electrification simulation",
+    "baseline": {
+        "observations": 20305,
+        "stress_threshold_kwh": 354.5756,
+        "stress_events": 1016,
+        "stress_percentage": 5.0037,
+        "peak_demand_kwh": 464.916
+    },
+    "scenarios": [
+        {
+            "scenario": "Baseline",
+            "ev_load_kwh": 0.0,
+            "hp_load_kwh": 0.0,
+            "observations": 20305,
+            "stress_threshold_kwh": 354.5756,
+            "stress_events": 1016,
+            "stress_percentage": 5.0037,
+            "stress_event_increase": 0,
+            "stress_percentage_point_increase": 0.0,
+            "future_peak_demand_kwh": 464.916,
+            "peak_demand_increase_kwh": 0.0
+        },
+        {
+            "scenario": "Low",
+            "ev_load_kwh": 20.0,
+            "hp_load_kwh": 10.0,
+            "observations": 20305,
+            "stress_threshold_kwh": 354.5756,
+            "stress_events": 1624,
+            "stress_percentage": 7.998,
+            "stress_event_increase": 608,
+            "stress_percentage_point_increase": 2.9943,
+            "future_peak_demand_kwh": 494.916,
+            "peak_demand_increase_kwh": 30.0
+        },
+        {
+            "scenario": "Medium",
+            "ev_load_kwh": 40.0,
+            "hp_load_kwh": 20.0,
+            "observations": 20305,
+            "stress_threshold_kwh": 354.5756,
+            "stress_events": 2032,
+            "stress_percentage": 10.0074,
+            "stress_event_increase": 1016,
+            "stress_percentage_point_increase": 5.0037,
+            "future_peak_demand_kwh": 524.916,
+            "peak_demand_increase_kwh": 60.0
+        },
+        {
+            "scenario": "High",
+            "ev_load_kwh": 60.0,
+            "hp_load_kwh": 30.0,
+            "observations": 20305,
+            "stress_threshold_kwh": 354.5756,
+            "stress_events": 2346,
+            "stress_percentage": 11.5538,
+            "stress_event_increase": 1330,
+            "stress_percentage_point_increase": 6.5501,
+            "future_peak_demand_kwh": 554.916,
+            "peak_demand_increase_kwh": 90.0
+        },
+        {
+            "scenario": "Extreme",
+            "ev_load_kwh": 80.0,
+            "hp_load_kwh": 40.0,
+            "observations": 20305,
+            "stress_threshold_kwh": 354.5756,
+            "stress_events": 2642,
+            "stress_percentage": 13.0116,
+            "stress_event_increase": 1626,
+            "stress_percentage_point_increase": 8.0079,
+            "future_peak_demand_kwh": 584.916,
+            "peak_demand_increase_kwh": 120.0
+        }
+    ]
+}

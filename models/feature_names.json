@@ -1,0 +1,13 @@
+[
+    "hour",
+    "day",
+    "month",
+    "weekday",
+    "is_weekend",
+    "season",
+    "lag_1",
+    "lag_48",
+    "lag_96",
+    "rolling_mean_48",
+    "rolling_std_48"
+]
